@@ -1,0 +1,6 @@
+2023-02-24 15:31:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CARGO" not found; SQL statement:
+SELECT ID, calculated_at, ETA, unloaded_at_dest, MISDIRECTED, routing_status, transport_status, next_expected_handling_event_type, next_expected_location_id, next_expected_voyage_id, current_voyage_id, last_event_id, last_known_location_id, spec_arrival_deadline, spec_destination_id, spec_origin_id, tracking_id, origin_id FROM CARGO [42102-196]
+2023-02-24 15:32:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CARGO" not found; SQL statement:
+SELECT ID, calculated_at, ETA, unloaded_at_dest, MISDIRECTED, routing_status, transport_status, next_expected_handling_event_type, next_expected_location_id, next_expected_voyage_id, current_voyage_id, last_event_id, last_known_location_id, spec_arrival_deadline, spec_destination_id, spec_origin_id, tracking_id, origin_id FROM CARGO [42102-196]
