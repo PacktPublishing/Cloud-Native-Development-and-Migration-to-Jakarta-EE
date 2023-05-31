@@ -19,6 +19,7 @@ import org.eclipse.cargotracker.domain.model.location.Location;
 import org.eclipse.cargotracker.domain.model.location.LocationRepository;
 import org.eclipse.cargotracker.domain.model.location.UnLocode;
 import org.eclipse.cargotracker.domain.service.RoutingService;
+import org.eclipse.microprofile.metrics.annotation.Timed;
 
 // TODO [Jakarta EE 8] Adopt the Date-Time API.
 @Stateless
