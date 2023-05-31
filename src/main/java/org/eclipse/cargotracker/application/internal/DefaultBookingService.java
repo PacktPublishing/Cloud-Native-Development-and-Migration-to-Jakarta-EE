@@ -70,6 +70,7 @@ public class DefaultBookingService implements BookingService {
 	}
 
 	@Override
+	@Timed(name = "changeDestination", absolute = false, tags = {"type=performance"})
 	public void changeDestination(TrackingId trackingId, UnLocode unLocode) {
 		Cargo cargo = cargoRepository.find(trackingId);
 		Location newDestination = locationRepository.find(unLocode);

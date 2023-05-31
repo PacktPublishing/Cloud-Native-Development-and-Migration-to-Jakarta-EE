@@ -27,6 +27,8 @@ public class CargoMonitoringService {
 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
+	@Counted(name="getAllCargo", absolute = false)
+	@Timed(name = "getAllCargoTiming", absolute = false, tags = {"type=performance"})
 	public JsonArray getAllCargo() {
 		List<Cargo> cargos = cargoRepository.findAll();
 
