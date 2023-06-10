@@ -97,6 +97,16 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- MicroProfile -->
+		<dependency>
+			<groupId>org.eclipse.microprofile</groupId>
+			<artifactId>microprofile</artifactId>
+			<version>6.0</version>
+			<type>pom</type>
+			<scope>provided</scope>
+		</dependency>
+
+
 		<!-- GlassFish specific dependencies, is not needed with Jakarta EE 8+ -->
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
