@@ -26,6 +26,13 @@ public class CargoMonitoringService {
 	private CargoRepository cargoRepository;
 
 	@GET
+	@Path("r")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String test(){
+		return "r";
+	}
+
+	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public JsonArray getAllCargo() {
 		List<Cargo> cargos = cargoRepository.findAll();
