@@ -1,2 +1,2 @@
-# Migrating-to-Cloud-Native-technology-with-Jakarta-EE
-Migrating to Cloud-Native technology with Jakarta EE, published by Packt
+# Cloud-Native-Development-and-Migration-to-Jakarta-EE
+Cloud-Native-Development-and-Migration-to-Jakarta-EE, published by Packt
